@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Awareness — Le Lycée National</title>
+    <meta name="description" content="A breast cancer awareness initiative by seniors at Le Lycée National. Learn about signs, symptoms, screening, treatment, and how you can help.">
+    <meta property="og:title" content="Breast Cancer Awareness — Le Lycée National">
+    <meta property="og:description" content="Knowledge saves lives. Learn everything about breast cancer — signs, screening, treatment, and support.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="ribbon">🎀</span> Lycée Seniors
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#signs">Signs</a></li>
+                <li><a href="#risk-factors">Risk Factors</a></li>
+                <li><a href="#screening">Screening</a></li>
+                <li><a href="#treatment">Treatment</a></li>
+                <li><a href="#living">Living With It</a></li>
+                <li><a href="#myths">Myths vs Facts</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-ribbon">🎀</span>
+            <h1 class="hero-title">Knowledge Saves Lives</h1>
+            <p class="hero-subtitle">
+                October is Breast Cancer Awareness Month.<br>
+                Join the seniors of <strong>Le Lycée National</strong> in spreading awareness,<br>
+                breaking myths, and empowering our community with knowledge.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <a href="#help" class="btn btn-secondary">How You Can Help</a>
+            </div>
+            <div class="stats-grid hero-stats">
+                <div class="stat-item fade-in">
+                    <span class="stat-number">2.3M</span>
+                    <span class="stat-label">New cases diagnosed worldwide each year</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">1 in 8</span>
+                    <span class="stat-label">Women will develop breast cancer in their lifetime</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">99%</span>
+                    <span class="stat-label">5-year survival rate when caught early</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">#1</span>
+                    <span class="stat-label">Most common cancer among women globally</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHAT IS BREAST CANCER? ========== -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">What Is Breast Cancer?</h2>
+                <p class="section-subtitle">Understanding the basics is the first step toward prevention and early detection.</p>
+            </div>
+
+            <div class="content-block fade-in">
+                <p>
+                    Breast cancer is a disease in which cells in the breast grow out of control. It occurs when the DNA in breast cells mutates, causing them to divide and multiply abnormally. These abnormal cells accumulate and form a tumor that can sometimes be felt as a lump. If left untreated, cancer cells can spread (metastasize) to nearby lymph nodes and other parts of the body.
+                </p>
+                <p>
+                    Breast cancer is <strong>not</strong> a single disease — it is a group of diseases. The type of breast cancer depends on which cells in the breast become cancerous. It can begin in different parts of the breast: the ducts (tubes that carry milk to the nipple), the lobules (glands that produce milk), or, less commonly, other tissues.
+                </p>
+            </div>
+
+            <h3 class="subsection-title fade-in">Types of Breast Cancer</h3>
+            <div class="card-grid fade-in">
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h4>Ductal Carcinoma In Situ (DCIS)</h4>
+                    <p>A non-invasive cancer where abnormal cells are found in the lining of the breast milk duct. It is the earliest form of breast cancer and is highly treatable. DCIS has not spread outside the duct into the surrounding breast tissue.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚠️</div>
+                    <h4>Invasive Ductal Carcinoma (IDC)</h4>
+                    <p>The most common type, accounting for about <strong>70–80%</strong> of all breast cancers. It starts in the milk ducts and breaks through the duct wall to invade surrounding breast tissue. It can spread to lymph nodes and other organs.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧫</div>
+                    <h4>Invasive Lobular Carcinoma (ILC)</h4>
+                    <p>The second most common type, making up about <strong>10–15%</strong> of cases. It begins in the milk-producing lobules and can spread to nearby tissues. ILC is often harder to detect on mammograms because it grows in a line rather than forming a distinct lump.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔴</div>
+                    <h4>Inflammatory Breast Cancer (IBC)</h4>
+                    <p>A rare and aggressive form (1–5% of cases). Cancer cells block lymph vessels in the breast skin, causing the breast to look swollen, red, and inflamed. It often does not produce a distinct lump and can be mistaken for an infection.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧬</div>
+                    <h4>Triple-Negative Breast Cancer (TNBC)</h4>
+                    <p>Accounts for about <strong>10–15%</strong> of breast cancers. The cancer cells lack estrogen receptors, progesterone receptors, and excess HER2 protein — making it harder to treat with hormone therapy. It tends to grow and spread faster than other types.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🩺</div>
+                    <h4>Paget's Disease of the Nipple</h4>
+                    <p>A rare form that starts in the breast ducts and spreads to the nipple and areola. It causes crusting, scaling, and redness of the nipple skin. It is almost always associated with either DCIS or invasive breast cancer underneath.</p>
+                </div>
+            </div>
+
+            <div class="info-box fade-in">
+                <h4>💡 Did You Know?</h4>
+                <p>Breast cancer can also occur in <strong>men</strong>. While rare (about 1% of all breast cancers), men have breast tissue too and can develop the disease. Male breast cancer is most common in men over 60, and the symptoms and treatment are similar to those in women.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SIGNS & SYMPTOMS ========== -->
+    <section id="signs" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Signs & Symptoms</h2>
+                <p class="section-subtitle">Knowing what to look for can save your life — or the life of someone you love.</p>
+            </div>
+
+            <div class="content-block fade-in">
+                <p>
+                    Many breast cancers are found through screening before symptoms appear. However, some breast cancers are discovered when a woman (or man) notices changes in the breast. It's important to know how your breasts normally look and feel so you can identify any changes early.
+                </p>
+            </div>
+
+            <div class="card-grid fade-in">
+                <div class="card card-warning">
+                    <div class="card-icon">🔍</div>
+                    <h4>New Lump or Mass</h4>
+                    <p>The most common symptom. A painless, hard mass with irregular edges is more likely to be cancer, but some are tender, soft, or rounded. <strong>Any</strong> new lump or mass should be checked by a doctor.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">📏</div>
+                    <h4>Change in Size or Shape</h4>
+                    <p>Swelling of all or part of the breast, even if no lump is felt. Unexplained change in the size or shape of one breast compared to the other.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">🧴</div>
+                    <h4>Skin Changes</h4>
+                    <p>Dimpling (like an orange peel texture), puckering, redness, thickening, or scaliness of the breast skin. The skin may feel warm to the touch.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">↩️</div>
+                    <h4>Nipple Changes</h4>
+                    <p>Nipple turning inward (retraction or inversion), flattening, or pointing in a new direction. Crusting, scaling, or flaking of the nipple skin.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">💧</div>
+                    <h4>Nipple Discharge</h4>
+                    <p>Any unexpected fluid from the nipple — especially if it is bloody, clear, or occurs without squeezing. While most discharge is not cancer, it should always be evaluated.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">😣</div>
+                    <h4>Pain</h4>
+                    <p>Persistent pain in the breast or armpit that doesn't go away with your menstrual cycle. While most breast pain is not cancer, ongoing or unexplained pain should be checked.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">🫸</div>
+                    <h4>Swollen Lymph Nodes</h4>
+                    <p>Swelling or a lump under the arm (armpit) or around the collarbone. This can indicate cancer has spread to the lymph nodes even before the breast tumor is large enough to be felt.</p>
+                </div>
+                <div class="card card-warning">
+                    <div class="card-icon">🌡️</div>
+                    <h4>Redness or Warmth</h4>
+                    <p>If the breast looks red, purple, or bruised — or feels warm — it could be a sign of inflammatory breast cancer, which requires urgent evaluation.</p>
+                </div>
+            </div>
+
+            <div class="info-box info-box-urgent fade-in">
+                <h4>🚨 When to See a Doctor Immediately</h4>
+                <p>If you notice <strong>any</strong> of the above changes, don't wait. Most breast changes are not cancer, but only a medical professional can determine that. <strong>Early detection saves lives</strong> — the earlier breast cancer is found, the better the chances of successful treatment.</p>
+            </div>
+
+            <div class="self-exam-guide fade-in">
+                <h3 class="subsection-title">How to Do a Breast Self-Exam</h3>
+                <p>A self-exam is a simple way to check your breasts for any changes. It's recommended to do one once a month, ideally a few days after your period ends when breasts are least tender.</p>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Stand in Front of a Mirror</h4>
+                        <p>With your arms at your sides, look at your breasts. Check for any changes in size, shape, skin texture, or nipple position. Repeat with arms raised overhead and then with hands on hips pressing firmly.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Feel While Standing</h4>
+                        <p>Using the pads of your three middle fingers, press on every part of one breast using small circular motions. Use light, medium, and firm pressure. Cover the entire breast from collarbone to the top of the abdomen, and from the armpit to the cleavage. Repeat on the other breast.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Feel While Lying Down</h4>
+                        <p>Place a pillow under your right shoulder and your right arm behind your head. Using your left hand, feel your right breast with the same circular motion and varying pressure. Switch sides and repeat.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Check the Nipple</h4>
+                        <p>Gently squeeze each nipple and check for any discharge (fluid). Note any changes in nipple direction, shape, or skin texture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RISK FACTORS ========== -->
+    <section id="risk-factors" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Risk Factors</h2>
+                <p class="section-subtitle">Some risk factors can't be changed, but many can be managed through healthy choices.</p>
+            </div>
+
+            <div class="content-block fade-in">
+                <p>A risk factor is anything that increases your chance of getting a disease. Having one or more risk factors does <strong>not</strong> mean you will get breast cancer — and some people who develop it have no known risk factors at all. Understanding your risk helps you make informed decisions about screening and prevention.</p>
+            </div>
+
+            <h3 class="subsection-title fade-in">Factors You Cannot Change</h3>
+            <div class="card-grid fade-in">
+                <div class="card">
+                    <div class="card-icon">📅</div>
+                    <h4>Age</h4>
+                    <p>The risk of breast cancer increases as you get older. Most breast cancers are diagnosed in women over 50. About 2 out of 3 invasive breast cancers are found in women aged 55 or older.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧬</div>
+                    <h4>Genetics (BRCA1 & BRCA2)</h4>
+                    <p>Inherited mutations in the BRCA1 and BRCA2 genes dramatically increase breast cancer risk — up to <strong>72%</strong> lifetime risk for BRCA1 carriers and <strong>69%</strong> for BRCA2. Other gene mutations (PALB2, TP53, ATM, CHEK2) also elevate risk.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👨‍👩‍👧</div>
+                    <h4>Family History</h4>
+                    <p>Having a first-degree relative (mother, sister, daughter) with breast cancer roughly doubles your risk. Having two first-degree relatives triples it. However, <strong>most women (about 85%)</strong> who get breast cancer have no family history.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔄</div>
+                    <h4>Menstrual & Reproductive History</h4>
+                    <p>Starting periods before age 12 or going through menopause after age 55 increases exposure to estrogen and progesterone. Women who have never had children or had their first child after age 30 also have slightly higher risk.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h4>Previous Breast Conditions</h4>
+                    <p>A personal history of breast cancer, DCIS, LCIS, or certain non-cancerous breast diseases (such as atypical hyperplasia) increases the risk of developing breast cancer.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">☢️</div>
+                    <h4>Radiation Exposure</h4>
+                    <p>Women who had radiation therapy to the chest area (for example, to treat Hodgkin lymphoma) before age 30 have a significantly higher risk of developing breast cancer later in life.</p>
+                </div>
+            </div>
+
+            <h3 class="subsection-title fade-in">Factors You Can Control</h3>
+            <div class="card-grid fade-in">
+                <div class="card card-positive">
+                    <div class="card-icon">⚖️</div>
+                    <h4>Body Weight</h4>
+                    <p>Being overweight or obese, especially after menopause, increases breast cancer risk. Fat tissue produces estrogen, and higher estrogen levels are linked to increased risk. Maintaining a healthy weight can help reduce your risk.</p>
+                </div>
+                <div class="card card-positive">
+                    <div class="card-icon">🏃‍♀️</div>
+                    <h4>Physical Activity</h4>
+                    <p>Regular exercise (at least 150 minutes of moderate activity per week) has been shown to lower breast cancer risk by <strong>10–20%</strong>. Exercise helps regulate hormones, boost the immune system, and maintain a healthy weight.</p>
+                </div>
+                <div class="card card-positive">
+                    <div class="card-icon">🍷</div>
+                    <h4>Alcohol Consumption</h4>
+                    <p>Even moderate drinking increases risk. Women who have 2–3 drinks per day have about a <strong>20% higher</strong> risk compared to non-drinkers. The more alcohol consumed, the greater the risk.</p>
+                </div>
+                <div class="card card-positive">
+                    <div class="card-icon">🚬</div>
+                    <h4>Smoking</h4>
+                    <p>Research has linked smoking — especially long-term, heavy smoking that begins at a young age — to a higher risk of breast cancer. Quitting smoking reduces this risk over time.</p>
+                </div>
+                <div class="card card-positive">
+                    <div class="card-icon">💊</div>
+                    <h4>Hormone Use</h4>
+                    <p>Combined hormone replacement therapy (HRT) using estrogen and progesterone after menopause can increase breast cancer risk. Some forms of hormonal birth control may also slightly increase risk. Talk to your doctor about your personal risk.</p>
+                </div>
+                <div class="card card-positive">
+                    <div class="card-icon">🤱</div>
+                    <h4>Breastfeeding</h4>
+                    <p>Breastfeeding for a total of one year or more (across all children) is associated with a reduced risk of breast cancer. It is believed to limit the total number of menstrual cycles and thus reduce lifetime estrogen exposure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SCREENING & EARLY DETECTION ========== -->
+    <section id="screening" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Screening & Early Detection</h2>
+                <p class="section-subtitle">When breast cancer is detected early, the 5-year survival rate is 99%. Screening is your best defense.</p>
+            </div>
+
+            <div class="card-grid fade-in">
+                <div class="card card-large">
+                    <div class="card-icon">📸</div>
+                    <h4>Mammogram</h4>
+                    <p>A mammogram is a low-dose X-ray image of the breast. It is the <strong>most effective</strong> screening tool for detecting breast cancer early, often years before physical symptoms develop.</p>
+                    <ul>
+                        <li><strong>Ages 25–39:</strong> Generally not recommended unless you are at high risk. Talk to your doctor.</li>
+                        <li><strong>Ages 40–44:</strong> You may choose to start annual mammograms. Discuss with your doctor.</li>
+                        <li><strong>Ages 45–54:</strong> Most guidelines recommend annual mammograms.</li>
+                        <li><strong>Ages 55+:</strong> Mammograms every 1–2 years, continuing as long as you are in good health.</li>
+                    </ul>
+                    <p>Mammograms can detect tumors that are too small to feel and can also find DCIS (abnormal cells in the duct lining that may become invasive cancer).</p>
+                </div>
+                <div class="card card-large">
+                    <div class="card-icon">👩‍⚕️</div>
+                    <h4>Clinical Breast Exam (CBE)</h4>
+                    <p>A clinical breast exam is a physical examination performed by a healthcare provider. The provider carefully feels (palpates) the breasts and underarm area for lumps, thickening, or other changes.</p>
+                    <ul>
+                        <li><strong>Ages 20–39:</strong> Every 1–3 years as part of a regular health exam.</li>
+                        <li><strong>Ages 40+:</strong> Every year, ideally before or alongside your annual mammogram.</li>
+                    </ul>
+                    <p>While a CBE alone cannot replace a mammogram, it can detect cancers that mammograms might miss and provides an opportunity to discuss risk factors with your doctor.</p>
+                </div>
+                <div class="card card-large">
+                    <div class="card-icon">🧲</div>
+                    <h4>Breast MRI</h4>
+                    <p>Breast MRI (Magnetic Resonance Imaging) uses magnets and radio waves to create detailed images of the breast. It is <strong>not</strong> used as a routine screening tool for average-risk women because it can lead to more false positives.</p>
+                    <ul>
+                        <li>Recommended alongside mammograms for women at <strong>high risk</strong> (≥20% lifetime risk).</li>
+                        <li>Used for women with BRCA gene mutations or a strong family history.</li>
+                        <li>May also be used to evaluate abnormalities found on a mammogram or to determine the extent of a diagnosed cancer.</li>
+                    </ul>
+                </div>
+                <div class="card card-large">
+                    <div class="card-icon">🧪</div>
+                    <h4>Genetic Testing</h4>
+                    <p>If you have a strong family history of breast cancer or other risk factors, genetic counseling and testing for BRCA1, BRCA2, and other mutations can help assess your risk.</p>
+                    <ul>
+                        <li>Genetic testing is recommended if you have multiple relatives with breast or ovarian cancer, or if a family member has a known gene mutation.</li>
+                        <li>A positive test doesn't mean you <strong>will</strong> get cancer — it means your risk is higher, and you and your doctor can plan a more aggressive screening schedule or preventive measures.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box fade-in">
+                <h4>🗓️ Screening Schedule at a Glance</h4>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Age Group</th>
+                            <th>Self-Exam</th>
+                            <th>Clinical Exam</th>
+                            <th>Mammogram</th>
+                            <th>MRI (High Risk)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>20–39</td>
+                            <td>Monthly</td>
+                            <td>Every 1–3 years</td>
+                            <td>Not routine</td>
+                            <td>If recommended</td>
+                        </tr>
+                        <tr>
+                            <td>40–44</td>
+                            <td>Monthly</td>
+                            <td>Yearly</td>
+                            <td>Optional yearly</td>
+                            <td>If recommended</td>
+                        </tr>
+                        <tr>
+                            <td>45–54</td>
+                            <td>Monthly</td>
+                            <td>Yearly</td>
+                            <td>Yearly</td>
+                            <td>If recommended</td>
+                        </tr>
+                        <tr>
+                            <td>55+</td>
+                            <td>Monthly</td>
+                            <td>Yearly</td>
+                            <td>Every 1–2 years</td>
+                            <td>If recommended</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TREATMENT OPTIONS ========== -->
+    <section id="treatment" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Treatment Options</h2>
+                <p class="section-subtitle">Treatment depends on the type, stage, and biology of the cancer. Many patients receive a combination of treatments.</p>
+            </div>
+
+            <div class="content-block fade-in">
+                <p>
+                    Breast cancer treatment is highly personalized. Your doctor will consider the type of cancer, its stage (how much it has spread), the grade (how aggressive the cells look), the presence of hormone receptors or HER2 protein, your overall health, and your personal preferences. Common treatments include:
+                </p>
+            </div>
+
+            <div class="timeline fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-marker">🔪</div>
+                    <div class="timeline-content">
+                        <h4>Surgery</h4>
+                        <p>Surgery is usually the first treatment for breast cancer. The goal is to remove the cancer from the breast.</p>
+                        <ul>
+                            <li><strong>Lumpectomy (Breast-Conserving Surgery):</strong> Removes only the tumor and a small margin of surrounding healthy tissue. The rest of the breast is preserved. Usually followed by radiation therapy.</li>
+                            <li><strong>Mastectomy:</strong> Removes the entire breast. May be recommended when the tumor is large relative to breast size, there are multiple tumors, or the patient prefers it. Options include total (simple) mastectomy, modified radical mastectomy, and skin-sparing or nipple-sparing mastectomy.</li>
+                            <li><strong>Sentinel Lymph Node Biopsy:</strong> During surgery, the first few lymph nodes to which cancer might spread are removed and tested. If no cancer is found, further lymph node removal may be avoided.</li>
+                            <li><strong>Axillary Lymph Node Dissection:</strong> If cancer is found in sentinel nodes, additional lymph nodes may be removed from the underarm area.</li>
+                            <li><strong>Breast Reconstruction:</strong> Surgery to rebuild the breast shape after mastectomy. Can be done at the same time as the mastectomy (immediate) or later (delayed). Options include implants or tissue from other parts of the body (flap reconstruction).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">☢️</div>
+                    <div class="timeline-content">
+                        <h4>Radiation Therapy</h4>
+                        <p>Uses high-energy rays or particles to destroy cancer cells. It is typically used after lumpectomy and sometimes after mastectomy.</p>
+                        <ul>
+                            <li><strong>External Beam Radiation:</strong> The most common type. A machine directs radiation at the affected area from outside the body. Treatment typically occurs daily (Monday–Friday) for 3–6 weeks.</li>
+                            <li><strong>Brachytherapy (Internal Radiation):</strong> A radioactive source is placed inside the breast near the tumor site. May be used as a boost after external radiation or as a standalone treatment in select cases.</li>
+                        </ul>
+                        <p>Common side effects include fatigue, skin redness (like a sunburn), and swelling. These usually go away after treatment ends.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">💉</div>
+                    <div class="timeline-content">
+                        <h4>Chemotherapy</h4>
+                        <p>Uses powerful drugs to kill cancer cells throughout the body. It may be given before surgery (neoadjuvant — to shrink the tumor), after surgery (adjuvant — to kill remaining cells), or for advanced cancer.</p>
+                        <ul>
+                            <li>Usually given in cycles: treatment period followed by recovery period.</li>
+                            <li>Can be given intravenously (IV) or in pill form.</li>
+                            <li>Common side effects include hair loss, nausea, fatigue, increased risk of infection, mouth sores, and nerve changes (neuropathy). Most side effects are temporary.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">💊</div>
+                    <div class="timeline-content">
+                        <h4>Hormone (Endocrine) Therapy</h4>
+                        <p>Used for cancers that are hormone receptor-positive (ER+ or PR+), meaning the cancer cells grow in response to estrogen or progesterone. Hormone therapy blocks or lowers these hormones.</p>
+                        <ul>
+                            <li><strong>Tamoxifen:</strong> Blocks estrogen from attaching to cancer cells. Used in both pre- and post-menopausal women. Typically taken for 5–10 years.</li>
+                            <li><strong>Aromatase Inhibitors (AIs):</strong> Such as letrozole, anastrozole, and exemestane. Lower estrogen levels in post-menopausal women. Taken for 5–10 years.</li>
+                            <li><strong>Ovarian Suppression:</strong> For pre-menopausal women, medications or surgery may be used to stop the ovaries from producing estrogen.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">🎯</div>
+                    <div class="timeline-content">
+                        <h4>Targeted Therapy</h4>
+                        <p>Drugs that target specific characteristics of cancer cells, such as the HER2 protein, that allow them to grow and spread.</p>
+                        <ul>
+                            <li><strong>Trastuzumab (Herceptin):</strong> Targets HER2-positive cancers. Given intravenously or by injection, often alongside chemotherapy.</li>
+                            <li><strong>Pertuzumab (Perjeta):</strong> Used in combination with trastuzumab for HER2-positive cancers.</li>
+                            <li><strong>CDK4/6 Inhibitors:</strong> Such as palbociclib, ribociclib, and abemaciclib. Used for HR+/HER2– advanced breast cancer alongside hormone therapy.</li>
+                        </ul>
+                        <p>Targeted therapies generally have fewer side effects than chemotherapy because they specifically target cancer cells rather than all rapidly dividing cells.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">🛡️</div>
+                    <div class="timeline-content">
+                        <h4>Immunotherapy</h4>
+                        <p>Helps your immune system recognize and attack cancer cells. Currently used primarily for triple-negative breast cancer (TNBC).</p>
+                        <ul>
+                            <li><strong>Pembrolizumab (Keytruda):</strong> A checkpoint inhibitor that helps T-cells recognize cancer cells. Used in combination with chemotherapy for certain TNBC cases.</li>
+                        </ul>
+                        <p>Research in immunotherapy for breast cancer is ongoing, and new treatments are continually being developed and tested in clinical trials.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-box fade-in">
+                <h4>📋 Stages of Breast Cancer</h4>
+                <p>Staging describes how far the cancer has spread. It is a key factor in determining treatment.</p>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Stage</th>
+                            <th>Description</th>
+                            <th>5-Year Survival Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Stage 0</strong></td>
+                            <td>Non-invasive (DCIS). Cancer cells are confined to the duct and have not invaded nearby tissue.</td>
+                            <td>~100%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Stage I</strong></td>
+                            <td>Small tumor (up to 2 cm) that has not spread to lymph nodes, or only tiny amounts are found in sentinel nodes.</td>
+                            <td>~99%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Stage II</strong></td>
+                            <td>Tumor is 2–5 cm and/or has spread to a few nearby lymph nodes.</td>
+                            <td>~93%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Stage III</strong></td>
+                            <td>Larger tumor and/or more extensive lymph node involvement. Cancer has not spread to distant organs.</td>
+                            <td>~72%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Stage IV</strong></td>
+                            <td>Cancer has spread (metastasized) to distant organs such as the lungs, liver, bones, or brain.</td>
+                            <td>~28%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><em>Survival rates are averages based on large groups of people and may not predict what will happen in any individual case. Advances in treatment continue to improve outcomes.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LIVING WITH BREAST CANCER ========== -->
+    <section id="living" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Living With Breast Cancer</h2>
+                <p class="section-subtitle">A diagnosis is not the end of the story. Support, self-care, and community make a powerful difference.</p>
+            </div>
+
+            <div class="card-grid fade-in">
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h4>Mental & Emotional Health</h4>
+                    <p>A breast cancer diagnosis can trigger fear, anxiety, depression, anger, and grief. These are all normal responses. It's okay to not be okay.</p>
+                    <ul>
+                        <li>Talk to a therapist or counselor who specializes in cancer care.</li>
+                        <li>Join a support group — sharing experiences with others who understand can be incredibly healing.</li>
+                        <li>Practice mindfulness, meditation, or journaling to process emotions.</li>
+                        <li>Don't hesitate to ask for help from friends and family.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🥗</div>
+                    <h4>Nutrition & Diet</h4>
+                    <p>Eating well during and after treatment supports your body's healing and can help manage side effects.</p>
+                    <ul>
+                        <li>Focus on whole foods: fruits, vegetables, whole grains, lean protein, and healthy fats.</li>
+                        <li>Stay hydrated — aim for at least 8 glasses of water daily.</li>
+                        <li>Limit processed foods, red meat, sugar, and alcohol.</li>
+                        <li>Talk to a registered dietitian who specializes in oncology nutrition for a personalized plan.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏋️‍♀️</div>
+                    <h4>Exercise & Movement</h4>
+                    <p>Physical activity has been shown to reduce fatigue, improve mood, lower the risk of recurrence, and improve overall quality of life.</p>
+                    <ul>
+                        <li>Aim for 150 minutes of moderate exercise per week (walking, swimming, yoga).</li>
+                        <li>Start slowly and listen to your body, especially during or right after treatment.</li>
+                        <li>Gentle stretching and range-of-motion exercises can help after surgery.</li>
+                        <li>Consult your doctor before starting any new exercise program.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h4>Support Systems</h4>
+                    <p>You don't have to face this alone. Building a strong support network is essential.</p>
+                    <ul>
+                        <li><strong>Family & Friends:</strong> Let them know how they can help — specific requests are easier to fulfill than "let me know if you need anything."</li>
+                        <li><strong>Support Groups:</strong> Connect with local or online breast cancer support communities.</li>
+                        <li><strong>Patient Navigators:</strong> Many hospitals have navigators who help coordinate care, answer questions, and reduce barriers.</li>
+                        <li><strong>Survivorship Programs:</strong> After treatment, survivorship care plans help you transition to long-term follow-up.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💜</div>
+                    <h4>Body Image & Intimacy</h4>
+                    <p>Treatment can change how you look and feel about your body. Hair loss, scars, and changes from surgery can be difficult.</p>
+                    <ul>
+                        <li>Give yourself grace and time to adjust to physical changes.</li>
+                        <li>Explore options like breast prostheses, wigs, scarves, or reconstruction surgery.</li>
+                        <li>Communicate openly with your partner about how you feel.</li>
+                        <li>A therapist or counselor can help navigate body image and intimacy concerns.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📝</div>
+                    <h4>Managing Side Effects</h4>
+                    <p>Treatment side effects vary by person and type of treatment. Common ones include:</p>
+                    <ul>
+                        <li><strong>Fatigue:</strong> The most common side effect. Rest when you need to, and try gentle activity to boost energy.</li>
+                        <li><strong>Lymphedema:</strong> Swelling in the arm after lymph node removal. Compression garments and gentle exercise can help.</li>
+                        <li><strong>Cognitive Changes ("Chemo Brain"):</strong> Difficulty concentrating or remembering things. Use lists, planners, and brain exercises.</li>
+                        <li><strong>Bone Health:</strong> Some treatments can weaken bones. Calcium, vitamin D, and weight-bearing exercise help maintain bone strength.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MYTHS VS FACTS ========== -->
+    <section id="myths" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Myths vs Facts</h2>
+                <p class="section-subtitle">Don't let misinformation put you or your loved ones at risk. Here are the facts.</p>
+            </div>
+
+            <div class="accordion fade-in">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Only women get breast cancer."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> Men can get breast cancer too. While it's rare — about <strong>1% of all breast cancers</strong> — men have breast tissue and can develop the disease. In 2023, an estimated 2,800 men were diagnosed with invasive breast cancer in the U.S. alone. Men should also report any breast changes to a doctor.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Finding a lump means you have breast cancer."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> The vast majority of breast lumps are <strong>not</strong> cancerous. About <strong>80% of lumps</strong> are caused by benign (non-cancerous) conditions such as cysts, fibroadenomas, or fibrocystic changes. However, every lump should be evaluated by a healthcare provider to rule out cancer.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Wearing an underwire bra causes breast cancer."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> There is <strong>no scientific evidence</strong> that wearing any type of bra — including underwire bras — causes or increases the risk of breast cancer. This myth has been thoroughly debunked by multiple studies. Wear whatever bra is comfortable for you.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Antiperspirants and deodorants cause breast cancer."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> There is <strong>no conclusive evidence</strong> linking antiperspirants or deodorants to breast cancer. The claim was based on the idea that chemicals could be absorbed through the skin and affect breast cells, but large-scale studies have not found this link.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Breast cancer only affects older women."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> While the risk increases with age, breast cancer can affect women (and men) at <strong>any age</strong>. About <strong>11% of new cases</strong> are diagnosed in women under 45. Young women tend to be diagnosed at later stages because they may not be screened regularly and may dismiss symptoms.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"If no one in your family has had breast cancer, you won't get it."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> About <strong>85% of breast cancers</strong> occur in women with no family history of the disease. While having a family history increases risk, most people diagnosed have no family connection. Everyone should be aware of the signs and follow recommended screening guidelines.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"A mammogram can cause breast cancer to spread."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> Mammograms use very low levels of radiation and do <strong>not</strong> cause cancer to spread. The compression used during a mammogram may be uncomfortable, but it does not damage breast tissue or cause cancer cells to spread. The benefits of early detection far outweigh the minimal risks.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Sugar feeds cancer."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> All cells — healthy and cancerous — use glucose (sugar) for energy. There is <strong>no evidence</strong> that eating sugar directly makes cancer grow faster. However, a high-sugar diet can lead to obesity, which <em>is</em> a risk factor for breast cancer. A balanced diet is always recommended.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Breast cancer is always a death sentence."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> This is far from the truth. When detected early (Stage 0 or I), the 5-year survival rate is <strong>nearly 100%</strong>. Even for later stages, treatments have improved dramatically. There are currently more than <strong>4 million breast cancer survivors</strong> in the United States alone. Early detection and modern treatment save lives every day.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="myth-label">Myth</span>
+                        <span>"Breast implants increase breast cancer risk."</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><span class="fact-label">Fact:</span> Standard silicone or saline breast implants do <strong>not</strong> increase the risk of breast cancer. However, some textured implants have been linked to a very rare type of lymphoma (BIA-ALCL), which is not breast cancer but a cancer of the immune system. If you have implants, continue regular screenings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOW YOU CAN HELP ========== -->
+    <section id="help" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">How You Can Help</h2>
+                <p class="section-subtitle">You don't need to be a doctor to make a difference. Every action counts.</p>
+            </div>
+
+            <div class="card-grid fade-in">
+                <div class="card card-action">
+                    <div class="card-icon">📢</div>
+                    <h4>Spread Awareness</h4>
+                    <p>Share this website, talk to your friends and family, post on social media. The more people who know the signs and the importance of screening, the more lives can be saved.</p>
+                    <ul>
+                        <li>Share our website link with your contacts.</li>
+                        <li>Use hashtags like <strong>#BreastCancerAwareness</strong>, <strong>#KnowledgeSavesLives</strong>, and <strong>#PinkOctober</strong>.</li>
+                        <li>Organize awareness events at your school, workplace, or community center.</li>
+                    </ul>
+                </div>
+                <div class="card card-action">
+                    <div class="card-icon">💝</div>
+                    <h4>Support Someone Diagnosed</h4>
+                    <p>If someone you know has been diagnosed with breast cancer, your support can mean the world.</p>
+                    <ul>
+                        <li>Listen without trying to fix everything. Sometimes just being present is enough.</li>
+                        <li>Offer specific help: "I'll bring dinner on Tuesday" is better than "Let me know if you need anything."</li>
+                        <li>Educate yourself about their diagnosis so you can be a better ally.</li>
+                        <li>Send cards, texts, or small gifts to show you're thinking of them.</li>
+                        <li>Respect their privacy and let them share on their own terms.</li>
+                    </ul>
+                </div>
+                <div class="card card-action">
+                    <div class="card-icon">🏃‍♂️</div>
+                    <h4>Participate in Events</h4>
+                    <p>Join walks, runs, and fundraising events in your community. These events raise money for research and support services while building solidarity.</p>
+                    <ul>
+                        <li>Look for local Pink Ribbon walks or charity runs.</li>
+                        <li>Organize a school fundraiser — bake sales, pink-themed days, sports tournaments.</li>
+                        <li>Participate in awareness campaigns during October (Breast Cancer Awareness Month).</li>
+                    </ul>
+                </div>
+                <div class="card card-action">
+                    <div class="card-icon">🩸</div>
+                    <h4>Donate</h4>
+                    <p>Financial contributions support research, patient care, and education programs. Even small amounts add up.</p>
+                    <ul>
+                        <li><strong>Research Funding:</strong> Supports clinical trials and the development of new treatments.</li>
+                        <li><strong>Patient Assistance:</strong> Helps cover treatment costs, transportation, and other needs for those who can't afford care.</li>
+                        <li><strong>Education Programs:</strong> Funds awareness campaigns in underserved communities.</li>
+                    </ul>
+                </div>
+                <div class="card card-action">
+                    <div class="card-icon">🎗️</div>
+                    <h4>Wear Pink</h4>
+                    <p>The pink ribbon is the international symbol of breast cancer awareness. Wearing pink — especially during October — shows support and starts conversations.</p>
+                    <ul>
+                        <li>Organize a "Wear Pink" day at your school.</li>
+                        <li>Pin a pink ribbon to your bag, jacket, or uniform.</li>
+                        <li>Every time someone asks about it, you have an opportunity to spread awareness.</li>
+                    </ul>
+                </div>
+                <div class="card card-action">
+                    <div class="card-icon">📚</div>
+                    <h4>Educate Yourself & Others</h4>
+                    <p>Knowledge is the most powerful tool against cancer. Keep learning and keep sharing.</p>
+                    <ul>
+                        <li>Read reputable sources: WHO, American Cancer Society, breastcancer.org.</li>
+                        <li>Attend workshops and health talks when available.</li>
+                        <li>Encourage the women (and men) in your life to follow screening guidelines.</li>
+                        <li>Combat myths and misinformation wherever you encounter them.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT US ========== -->
+    <section id="about-us" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About This Initiative</h2>
+                <p class="section-subtitle">Made with 💗 by the seniors of Le Lycée National.</p>
+            </div>
+
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>
+                        This website was created by the senior class of <strong>Le Lycée National</strong> as part of our Breast Cancer Awareness Month initiative in October 2026. We believe that <strong>knowledge saves lives</strong>, and we wanted to create a resource that our community — and anyone else who finds it — can use to learn about breast cancer.
+                    </p>
+                    <p>
+                        Our goal is simple: to make sure that everyone around us understands the signs, knows the importance of early detection, and feels empowered to take action — whether that's doing a self-exam, supporting a loved one, or simply sharing this page.
+                    </p>
+                    <p>
+                        Breast cancer affects millions of people worldwide, but with awareness, early detection, and access to care, survival rates continue to improve. We hope this website serves as a small but meaningful step toward a world where no one faces breast cancer alone or uninformed.
+                    </p>
+                    <div class="about-cta">
+                        <h4>🎀 Together, we can make a difference.</h4>
+                        <p>Share this website, start a conversation, and help spread the word. Every person you inform is a life you might save.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="ribbon">🎀</span>
+                    <span>Le Lycée National — Breast Cancer Awareness 2026</span>
+                </div>
+                <div class="footer-disclaimer">
+                    <p><strong>Disclaimer:</strong> This website is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional for diagnosis and treatment. Information is based on publicly available resources from WHO, American Cancer Society, and breastcancer.org.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Trusted Resources</h4>
+                    <ul>
+                        <li><a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener">World Health Organization</a></li>
+                        <li><a href="https://www.cancer.org/cancer/breast-cancer.html" target="_blank" rel="noopener">American Cancer Society</a></li>
+                        <li><a href="https://www.breastcancer.org" target="_blank" rel="noopener">Breastcancer.org</a></li>
+                        <li><a href="https://www.nationalbreastcancer.org" target="_blank" rel="noopener">National Breast Cancer Foundation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Le Lycée National Senior Class. Made with 💗 for Breast Cancer Awareness Month.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
